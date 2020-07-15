@@ -20,7 +20,7 @@ func greetingPrefix(language string) (prefix string) {
 	return
 }
 
-func Hello(name string, language string) string {
+func Hello(name, language string) string {
 	if name == "" {
 		name = "World"
 	}
